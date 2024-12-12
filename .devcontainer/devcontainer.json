@@ -8,11 +8,11 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-      ]
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
     }
+  },
+  "remoteEnv": {
+    "VITE_API_URL": "${localEnv:VITE_API_URL}"
   },
   "forwardPorts": [5000],
   "postCreateCommand": "npm install",
