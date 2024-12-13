@@ -2,8 +2,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/dummy-data",
-  // baseURL: import.meta.env.VITE_API_URL,
+  // baseURL: "/dummy-data",
+  baseURL: import.meta.env.VITE_API_URL,
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",

@@ -13,7 +13,7 @@ export default function Groceries() {
       try {
         setLoading(true);
         // Update the endpoint to match your server route
-        const response = await api.get('/groceries.json');
+        const response = await api.get('/find/ProductsDB/Products');
         setGroceries(response.data);
         setError(null);
       } catch (err) {
