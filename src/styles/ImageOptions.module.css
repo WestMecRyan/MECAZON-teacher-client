@@ -1,0 +1,11 @@
+.blue {
+  filter: hue-rotate(180deg) saturate(800%) sepia(50%) brightness(85%);
+}
+
+.red {
+  filter: hue-rotate(320deg) saturate(800%) sepia(50%) brightness(85%);
+}
+
+.green {
+  filter: hue-rotate(90deg) saturate(800%) sepia(50%) brightness(85%);
+}
